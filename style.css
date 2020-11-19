@@ -1,0 +1,70 @@
+body {
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+#main-container {
+    width: 320px;
+    height: 520px;
+    background-color: rgb(0, 180, 216);
+    margin: auto;
+    top: 30px;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#result {
+    height: 120px;
+    text-align: right;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+#previous-operation {
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+#current-operation {
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    float: left;
+    outline: none;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.operator {
+    background-color: rgb(144, 224, 239);
+    cursor: pointer;
+}
+
+.empty, .number {
+    background-color: rgb(0, 180, 216);
+}
+
+.number:hover {
+    background-color: rgb(144, 224, 239);
+    cursor: pointer;
+}
+
+.operator:hover {
+    background-color: rgb(202, 240, 248);
+}
